@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectCard from './UI/ProjectCard';
 import imageAnnotator from '../assets/image-annotator.png';
 import pawsAndClaws from '../assets/paws-and-claws.png';

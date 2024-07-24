@@ -20,7 +20,6 @@ export default function About() {
                 <img style={{width:"80%", marginLeft: "80px"}} src={profilePic} alt="Ben in his natural element"/>
             </div>
         </div>
-
         </>
     );
 }
