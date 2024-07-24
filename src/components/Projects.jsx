@@ -13,17 +13,18 @@ const projects = [
         deployed: "https://image-binary-classifier.onrender.com/"
     },
     {
-        title: "PWA Text Editor",
-        image: pwaTextEditor,
-        github: "https://github.com/benjamin-parks/Text-Editor-PWA-BParks",
-        deployed: "https://text-editor-pwa-bparks.onrender.com"
-    },
-    {
         title: "Paws and Claws Animal Adoption",
         image: pawsAndClaws,
         github: "https://github.com/benjamin-parks/Project-2-Animal-Adoption-App",
         deployed: "https://project-2-animal-adoption-app.onrender.com"
     },
+    {
+        title: "PWA Text Editor",
+        image: pwaTextEditor,
+        github: "https://github.com/benjamin-parks/Text-Editor-PWA-BParks",
+        deployed: "https://text-editor-pwa-bparks.onrender.com"
+    },
+    
     {
         title: "README Generator",
         image: readme,
@@ -36,7 +37,7 @@ export default function Projects() {
     return (
       <div>
         <h1>Projects</h1>
-        <div style={{display:"flex", flexWrap: "wrap", color: "gray"}}>
+        <div style={{display:"flex", flexWrap: "wrap", color: "black"}}>
           {projects.map((project, index) => (
             <ProjectCard
               key={index}

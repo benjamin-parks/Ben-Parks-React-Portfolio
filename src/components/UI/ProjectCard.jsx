@@ -7,8 +7,9 @@ export default function ProjectCard({ title, image, github, deployed }) {
           margin: '16px',
           marginBottom: "32px", 
           width: 'calc(47%)', // Adjust width and margin for spacing
+          height: "750px",
           boxSizing: 'border-box', 
-          backgroundColor: '#f9f9f9', 
+          backgroundColor: '#B3B4BD', 
           textAlign: 'center' 
         }}>
           <h2>{title}</h2>
