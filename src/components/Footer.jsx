@@ -19,17 +19,17 @@ export default function Footer() {
       }}>
         <li>
           <a href="https://www.linkedin.com/in/ben-parks-a8b04b214/" style={{ color: '#fff', marginRight: "16px" }}>
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedin} size='2x'/>
           </a>
         </li>
         <li>
           <a href="https://github.com/benjamin-parks" style={{ color: '#fff', marginRight: "16px" }}>
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} size='2x'/>
           </a>
         </li>
         <li>
           <a href="https://x.com/BunMunKun" style={{ color: '#fff', marginRight: "48px"}}>
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faTwitter} size='2x' />
           </a>
         </li>
       </ul>
