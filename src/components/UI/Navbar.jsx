@@ -15,7 +15,7 @@ export default function Nav({ links }) {
                 justifyContent: "space-evenly",
                 }}>
                 {links.map((link, index) => (
-                  <li style={{color: '#fff'}} key={index}>
+                  <li className="nav-item" style={{color: "white"}} key={index}>
                     {link}
                   </li>
                 ))}

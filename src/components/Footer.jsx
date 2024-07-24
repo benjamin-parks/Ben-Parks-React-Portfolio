@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 export default function Footer() {
   return (
     <div style={{
@@ -11,12 +14,24 @@ export default function Footer() {
     }}>
       <ul style={{
         display: 'flex',
-        listStyle: 'none', 
-        justifyContent: 'space-evenly',
+        listStyle: 'none',
+        justifyContent: 'center'
       }}>
-        <li><a href="https://www.linkedin.com/in/ben-parks-a8b04b214/" style={{ color: '#fff' }}>LinkedIn</a></li>
-        <li><a href="https://github.com/benjamin-parks" style={{ color: '#fff' }}>Github</a></li>
-        <li><a href="https://x.com/BunMunKun" style={{ color: '#fff' }}>X (formerly known as twitter)</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/ben-parks-a8b04b214/" style={{ color: '#fff', marginRight: "16px" }}>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/benjamin-parks" style={{ color: '#fff', marginRight: "16px" }}>
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/BunMunKun" style={{ color: '#fff', marginRight: "48px"}}>
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
+        </li>
       </ul>
     </div>
   );
