@@ -11,6 +11,9 @@ function App() {
       <div>
       <Outlet/>
       </div>
+      <>
+        <br />
+      </>
       <Footer/>
     </>
   )
